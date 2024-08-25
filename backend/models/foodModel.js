@@ -10,6 +10,6 @@ const foodSchema = new mongoose.Schema({
 });
 
 // if model exist use food model else create a new model
-const foodModel = mongoose.models.food || mongoose.model("Food", foodSchema);
+const foodModel = mongoose.models.food || mongoose.model("food", foodSchema);
 
 export default foodModel;

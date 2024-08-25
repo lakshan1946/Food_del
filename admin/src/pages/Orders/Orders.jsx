@@ -1,8 +1,7 @@
 import React from "react";
 import "./Orders.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { toast } from "react-toastify";
-import { useEffect } from "react";
 import axios from "axios";
 import { assets } from "../../assets/assets";
 
@@ -68,9 +67,9 @@ const Orders = ({ url }) => {
                 onChange={(event) => statusHandler(event, order._id)}
                 value={order.status}
               >
-                <option value="Food Processing"></option>
-                <option value="Out for delivery"></option>
-                <option value="Delivered"></option>
+                <option value="Food Processing">Food Processing</option>
+                <option value="Out for delivery">Out for delivery</option>
+                <option value="Delivered">Delivered</option>
               </select>
             </div>
           </div>;
