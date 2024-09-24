@@ -11,7 +11,7 @@ This project is a full-stack, responsive food delivery website developed using t
 3. [Installation](#installation)
 4. [Usage](#usage)
 5. [Project Structure](#project-structure)
-6. [Screenshots and Video](#screenshots-and-video)
+6. [Screenshots](#screenshots-and-video)
 7. [Admin Panel](#admin-panel)
 8. [Contributing](#contributing)
 9. [Contact](#contact)
